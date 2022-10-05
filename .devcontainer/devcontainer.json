@@ -1,0 +1,26 @@
+{
+    "name": "Go",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "main",
+    "workspaceFolder": "/workspace",
+    "settings": {
+        "go.lintTool": "golangci-lint",
+        "go.toolsManagement.checkForUpdates": "local",
+        "go.useLanguageServer": true,
+        "go.goroot": "/usr/local/go",
+        "lldb.executable": "/usr/bin/lldb",
+        "files.watcherExclude": {
+            "**/target/**": true
+        },
+        "rust-analyzer.checkOnSave.command": "clippy"
+    },
+    "extensions": [
+        "golang.Go",
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml",
+        "serayuzgur.crates"
+    ],
+    "features": {
+        "docker-in-docker": "latest"
+    }
+}
