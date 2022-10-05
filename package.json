@@ -1,0 +1,20 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsukiy0/wasmtime-rust-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsukiy0/wasmtime-rust-example/issues"
+  },
+  "homepage": "https://github.com/tsukiy0/wasmtime-rust-example#readme",
+  "dependencies": {
+    "wasm2wat": "^1.1.1"
+  }
+}
